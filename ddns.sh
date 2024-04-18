@@ -13,7 +13,7 @@ PORT=""  # 端口号
 DATACENTER="HKG"  # 数据中心
 
 # 文件读取输出相关信息
-AsnIata="https://www.cloudflare-cn.com/ips-v4/#"       # 输入文件路径
+AsnIata="https://raw.githubusercontent.com/xznwwh/cmliu-ACL4SSR/main/addressescsv.csv"       # 输入文件路径
 AsnIata_IPS="ips.txt"      # 输出满足条件的IP地址和端口的文件路径
 Shuf_IP="ip.txt"           # 输出随机抽取的IP地址的文件路径
 Speed_IPS="speed_ips.txt"  # 速度最快的IP临时文件
